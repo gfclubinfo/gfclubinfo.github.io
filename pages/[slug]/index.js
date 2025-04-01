@@ -7,7 +7,6 @@ import Header from '../../components/header'
 import Authors from '../../components/authors'
 import Content from '../../components/content'
 import Footer from '../../components/footer'
-import Share from '../../components/share'
 import { useRouter } from 'next/router'
 import { Edit3 } from 'react-feather'
 
@@ -104,7 +103,6 @@ const Page = ({ slug, data, html, locales }) => {
             .
           </Content>
         )}
-        <Share workshop={data.name} />
       </Container>
       <Footer />
     </>
