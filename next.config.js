@@ -18,7 +18,8 @@ module.exports = withMDX({
         source: '/workshops.json',
         destination: '/api/workshops'
       },
-      { source: '/workshops/_next/:path*', destination: '/_next/:path*' }
+      { source: '/workshops/_next/:path*', destination: '/_next/:path*' },
+      { source: '/pw', destination: '/personal_website/fr/' }
     ]
   }
 })
